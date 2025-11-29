@@ -5,42 +5,42 @@ import { Badge } from "@/components/ui/badge"
 const Skills = () => {
   const skillCategories = [
     {
+      title: "Backend & Architecture",
+      skills: ["Java", "Spring Boot", "Spring Cloud", "Microservices", "JPA/Hibernate", "Kafka", "RabbitMQ"],
+    },
+    {
+      title: "Frontend",
+      skills: ["Angular", "React", "React Native", "HTML5", "CSS3", "RxJS", "TypeScript"],
+    },
+    {
+      title: "DevOps & Tools",
+      skills: ["Docker", "Docker Compose", "Git", "GitFlow", "Bash Scripting", "Linux", "Maven"],
+    },
+    {
+      title: "Security Applicative (DevSec)",
+      skills: ["Keycloak", "OAuth2", "OIDC", "JWT", "OWASP Top 10", "Secure Coding", "SonarQube"],
+    },
+    {
+      title: "Databases",
+      skills: ["MySQL", "PostgreSQL", "MongoDB"],
+    },
+    {
       title: "Programming & Scripting",
-      skills: ["Python", "Java", "Bash"],
-    },
-    {
-      title: "Frameworks",
-      skills: ["Spring Boot", "Angular", "React Native", "NestJS", "GraphQL"],
-    },
-    {
-      title: "Security Tools",
-      skills: ["Nmap", "Burp Suite", "Metasploit", "Wireshark"],
-    },
-    {
-      title: "Security Domains",
-      skills: ["Network Security", "Web Application Security", "Vulnerability Exploitation", "SOC L1 Monitoring"],
-    },
-    {
-      title: "Other",
-      skills: ["Docker", "Git", "Swagger", "JWT", "REST", "Kafka"],
-    },
-    {
-      title: "Operating Systems",
-      skills: ["Linux (Kali, Ubuntu)", "Windows"],
+      skills: ["Python", "Bash", "TypeScript"],
     },
   ]
 
   return (
     <section id="skills" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto space-y-12">
-        <div className="space-y-4">
-          <h2 className="text-4xl font-bold text-foreground">My Technical Skills</h2>
+        <div className="space-y-4 animate-fade-up">
+          <h2 className="text-4xl font-bold text-foreground">Technical Skills</h2>
           <div className="h-1 w-20 bg-gradient-to-r from-primary to-accent rounded-full" />
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
-          {skillCategories.map((category) => (
-            <div key={category.title} className="space-y-4">
+          {skillCategories.map((category, idx) => (
+            <div key={category.title} className="space-y-4 animate-fade-up" style={{ animationDelay: `${idx * 50}ms` }}>
               <h3 className="text-lg font-semibold text-primary">{category.title}</h3>
               <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill) => (
