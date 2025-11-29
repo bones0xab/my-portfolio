@@ -21,18 +21,17 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl sm:text-2xl text-foreground/80 font-light">
-            Master's Student in Distributed Systems & AI
+            Ingénieur FullStack Spring Boot / Angular / React & DevOps
           </p>
 
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-            Specializing in Offensive and Defensive Cybersecurity | Top 4% on TryHackMe
+            Master's Student in Distributed Systems & AI | Specialist in Microservices Architecture & Security
           </p>
         </div>
 
         <div className="bg-card/50 border border-border rounded-lg p-6 max-w-2xl mx-auto backdrop-blur-sm">
           <p className="text-foreground/80 text-lg">
-            Seeking a Final-Year Internship starting February 2026 to contribute to threat detection, prevention, and
-            mitigation in demanding technical environments.
+            Futur diplômé du Master Systèmes Distribués (ENSET) et issu du cursus d'excellence 1337. Spécialisé dans les architectures Microservices (Spring Boot) et le Frontend moderne (Angular/React). Culture DevOps et expertise en Sécurité (Secure Coding).
           </p>
         </div>
 
