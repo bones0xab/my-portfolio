@@ -7,6 +7,21 @@ import { Github } from "lucide-react"
 
 const Projects = () => {
   const projects = [
+     {
+    id: "banking-cqrs-rag",
+    title: "Plateforme Bancaire Intelligente – CQRS, Event Sourcing & IA Générative",
+    date: "Nov. 2025",
+    short: "Système distribué résilient (CQRS + Event Sourcing) avec assistant IA contextuel (RAG).",
+    description:
+      "Architecture avancée basée sur CQRS & Event Sourcing (Axon Framework + Spring Boot) pour auditabilité des transactions (Write Model) et lectures haute performance (Read Model → PostgreSQL). " +
+      "Intégration d'un assistant bancaire via Spring AI + Ollama (Llama 3.2) en RAG pour interroger les soldes/ops en langage naturel. Frontend React (Hooks, Axios) et pipeline CI/CD + Docker Compose (Axon Server, Postgres, Ollama).",
+    tech: [
+      "Java", "Spring Boot", "Axon Framework", "Event Sourcing", "CQRS",
+      "PostgreSQL", "React.js (Hooks)", "Spring AI", "Ollama (Llama 3.2)",
+      "RAG", "Docker Compose", "GitHub Actions"
+    ],
+    github: "https://github.com/bones0xabe", // remplace par ton repo réel
+  },
     {
       title: "Gestion des Cotations Boursières – Chatbot Telegram",
       description:
