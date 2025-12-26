@@ -21,18 +21,17 @@ const Hero = () => {
           </h1>
 
           <p className="text-xl sm:text-2xl text-foreground/80 font-light">
-            Ingénieur FullStack Spring Boot / Angular / React & DevOps
+            Étudiant M2 – PFE Développement Full Stack / IA
           </p>
 
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-            Master's Student in Distributed Systems & AI | Specialist in Microservices Architecture & Security
+            Master 2 Student in Distributed Systems & AI | Full Stack Developer (Spring Boot/Angular) & AI Integration (RAG/LLMs)
           </p>
         </div>
 
         <div className="bg-card/50 border border-border rounded-lg p-6 max-w-2xl mx-auto backdrop-blur-sm">
           <p className="text-foreground/80 text-lg">
-            Futur diplômé du Master Systèmes Distribués (ENSET) et issu du cursus d'excellence 1337. Spécialisé dans les architectures Microservices (Spring Boot) et le Frontend moderne (Angular/React). Culture DevOps et expertise en Sécurité (Secure Coding).
-          </p>
+Futur diplômé du Master Systèmes Distribués (ENSET) et issu du cursus d'excellence 1337, je suis un Ingénieur Logiciel spécialisé dans les architectures Microservices (Spring Boot) et le Frontend moderne (Angular/REACT). Fort d'une culture DevOps (Docker) et d'une expertise en Sécurité (Secure Coding), je conçois des applications robustes, scalables et sécurisées dès la conception. Je recherche un stage de fin d'études (PFE) pour industrialiser vos solutions logicielles.          </p>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
