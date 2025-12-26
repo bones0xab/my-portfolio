@@ -5,17 +5,17 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 const Experience = () => {
   const experiences = [
     {
-      title: "Stagiaire Backend Java/Spring",
+      title: "Stagiaire Backend Java/Spring Boot",
       company: "Lotus Capital (Payment Service)",
-      date: "Oct. 2024 – Présent",
+      date: "Oct. 2025 – Jan. 2026",
       description:
         "Développement du Microservices critique de paiement en Java/Spring Boot. Implémentation de l'orchestration asynchrone via RabbitMQ pour la gestion des abonnements post-paiement. Collaboration en environnement Agile avec intégration des webhooks Stripe sécurisés.",
-      highlights: ["Java/Spring Boot", "RabbitMQ", "Stripe", "Microservices"],
+      highlights: ["Java/Spring Boot", "RabbitMQ", "Stripe", "Microservices", "Paiement en ligne"],
     },
     {
       title: "Développeur Web & Mobile",
       company: "Freelance & Projets Académiques",
-      date: "2023 – 2024",
+      date: "Mars 2023 – Juin 2023",
       description:
         "Conception et développement d'un site web pour un cabinet médical en HTML, CSS et JavaScript, avec versions web et mobile. Hébergement sur Hostinger avec optimisation SEO avancée.",
       highlights: ["Web Development", "SEO Optimization", "Responsive Design"],
@@ -26,7 +26,7 @@ const Experience = () => {
       date: "Fév. 2023 – Nov. 2024",
       description:
         "Développement et déploiement d'une application mobile React Native pour la gestion d'événements et le partage de cours, utilisée par plus de 150 étudiants. Optimisation de l'organisation académique et de la communication interne (+30% d'efficacité).",
-      highlights: ["React Native", "Mobile Development", "150+ Users"],
+      highlights: ["React Native", "Mobile Development", "150+ Users", "MongoDB"],
     },
   ]
 
