@@ -7,11 +7,31 @@ const Certifications = () => {
     {
       title: "TryHackMe",
       description: "Top 4%, Hash Cracker, OhSINT, Webbed, Junior Pentester",
-      icon: "🎯",
+      icon: "🌐",
     },
     {
       title: "Cisco",
       description: "Network Security 0.2, Networking Basics",
+      icon: "🌐",
+    },
+    {
+      title: "Blockchain",
+      description: "Workflow Blockchain",
+      icon: "🌐",
+    },
+    {
+      title: "Linux",
+      description: "Linux OS",
+      icon: "🌐",
+    },
+    {
+      title: "Python",
+      description: "Scripting with Python",
+      icon: "🌐",
+    },
+    {
+      title: "Responsive Web Design",
+      description: "Building a Responsive sites",
       icon: "🌐",
     },
   ]
