@@ -6,7 +6,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Backend & Architecture",
-      skills: ["Java", "Spring Boot", "Spring Cloud", "Microservices", "JPA/Hibernate", "Kafka", "RabbitMQ"],
+      skills: ["Java", "Spring Boot", "Spring claud AI", "Spring Cloud", "Microservices", "JPA/Hibernate", "Kafka", "RabbitMQ"],
     },
     {
       title: "Frontend",
@@ -14,7 +14,7 @@ const Skills = () => {
     },
     {
       title: "DevOps & Tools",
-      skills: ["Docker", "Docker Compose", "Git", "GitFlow", "Bash Scripting", "Linux", "Maven"],
+      skills: ["Docker", "Docker Compose", "CI/CD" ,"Git", "GitFlow", "Bash Scripting", "Linux", "Maven" ],
     },
     {
       title: "Security Applicative (DevSec)",
@@ -22,11 +22,15 @@ const Skills = () => {
     },
     {
       title: "Databases",
-      skills: ["MySQL", "PostgreSQL", "MongoDB"],
+      skills: ["MySQL", "PostgreSQL", "MongoDB", "H2"],
     },
     {
       title: "Programming & Scripting",
       skills: ["Python", "Bash", "TypeScript"],
+    },
+    {
+      title: "AI",
+      skills: ["RAG", "LLM Integration", "TypeSPrompt Engineeringcript", "Fine-tuning" , "LangChain", "Ollama", "Hugging Face", "Embeddings", "NLP"],
     },
   ]
 
