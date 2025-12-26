@@ -20,7 +20,7 @@ const Projects = () => {
       "PostgreSQL", "React.js (Hooks)", "Spring AI", "Ollama (Llama 3.2)",
       "RAG", "Docker Compose", "GitHub Actions"
     ],
-    github: "https://github.com/bones0xabe", // remplace par ton repo réel
+    github: "https://github.com/bones0xab/event-sourcing-cqrs-spring-axon-app", 
   },
     {
       title: "Gestion des Cotations Boursières – Chatbot Telegram",
@@ -28,7 +28,7 @@ const Projects = () => {
         "Plateforme distribuée de gestion des cotations boursières avec architecture Microservices. Implémentation du Stock-Service, Gateway-Service et Discovery-Service. Frontend Angular et chatbot Telegram intégré.",
       tech: ["Spring Boot", "Spring Cloud", "Angular", "Telegram API", "REST"],
       date: "Nov 2025",
-      github: "https://github.com/bones0xab",
+      github: "https://github.com/bones0xab/enset-adria-stock-market-test",
     },
     {
       title: "Microservices de Gestion de Conférences Sécurisées",
@@ -36,7 +36,7 @@ const Projects = () => {
         "Plateforme Full Stack de gestion de conférences avec architecture Microservices scalable. Sécurisation OAuth2/OIDC via Keycloak, documentation OpenAPI Swagger, déploiement Docker Compose.",
       tech: ["Spring Boot", "Spring Cloud Gateway", "Keycloak", "OAuth2", "Docker", "Swagger"],
       date: "Oct 2025 – Nov 2025",
-      github: "https://github.com/bones0xab",
+      github: "https://github.com/bones0xab/conference-microservice",
     },
     {
       title: "Digital Banking Platform",
@@ -44,7 +44,7 @@ const Projects = () => {
         "Système bancaire complet avec authentification JWT sécurisée, documentation API Swagger et tableau de bord interactif avec ChartJS.",
       tech: ["Spring Boot", "Angular", "JWT", "Swagger", "ChartJS"],
       date: "Mar 2025 – Apr 2025",
-      github: "https://github.com/bones0xab/digital-banking",
+      github: "https://github.com/bones0xab/Digital_Bank_Backend_SpringBoot",
     },
     {
       title: "SecurityFile",
@@ -52,7 +52,7 @@ const Projects = () => {
         "Système sécurisé de partage de fichiers utilisant le chiffrement AES-GCM et dérivation de clés PBKDF pour une protection maximale des données.",
       tech: ["Angular", "Node.js", "AES-GCM", "PBKDF"],
       date: "Jun 2025 – Aug 2025",
-      github: "https://github.com/bones0xab/securityfile",
+      github: "https://github.com/bones0xab/SecureUploadFile_Angular_FrontEnd",
     },
     {
       title: "SentinelView Platform",
@@ -60,15 +60,7 @@ const Projects = () => {
         "Plateforme Full Stack de gestion des employés avec surveillance en temps réel, alertes intégrées et tableau de bord dynamique.",
       tech: ["Angular", "NestJS", "GraphQL", "Real-time Monitoring"],
       date: "Aug 2025",
-      github: "https://github.com/bones0xab/sentinelview-platform",
-    },
-    {
-      title: "Microservice Bancaire",
-      description:
-        "Implémentation d'API RESTful et GraphQL pour la gestion des comptes bancaires avec documentation complète Swagger.",
-      tech: ["Spring Boot", "JPA", "GraphQL", "Swagger"],
-      date: "Oct 2025 – Nov 2025",
-      github: "https://github.com/bones0xab/microservice-banking",
+      github: "https://github.com/bones0xab/Sentinel_View_App_FrontEnd_Angular",
     },
   ]
 
